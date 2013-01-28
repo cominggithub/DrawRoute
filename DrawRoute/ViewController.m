@@ -26,4 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)updateBottonClick:(id)sender {
+    RouteUIView *routeUIView = (RouteUIView *) [[[self view] subviews] objectAtIndex:0];
+    [routeUIView timerTimeout];
+}
 @end

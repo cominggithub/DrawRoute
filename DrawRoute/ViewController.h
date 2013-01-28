@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RouteUIView.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *UpdateButton;
+- (IBAction)updateBottonClick:(id)sender;
 
 @end
+

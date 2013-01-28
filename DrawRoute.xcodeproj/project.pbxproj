@@ -19,6 +19,7 @@
 		2BCB982216B17775003EDE86 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB982016B17775003EDE86 /* MainStoryboard_iPhone.storyboard */; };
 		2BCB982516B17775003EDE86 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB982316B17775003EDE86 /* MainStoryboard_iPad.storyboard */; };
 		2BCB982816B17775003EDE86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB982716B17775003EDE86 /* ViewController.m */; };
+		2BCB983016B177D2003EDE86 /* RouteUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB982F16B177D2003EDE86 /* RouteUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		2BCB982416B17775003EDE86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		2BCB982616B17775003EDE86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2BCB982716B17775003EDE86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BCB982E16B177D2003EDE86 /* RouteUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteUIView.h; sourceTree = "<group>"; };
+		2BCB982F16B177D2003EDE86 /* RouteUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				2BCB982616B17775003EDE86 /* ViewController.h */,
 				2BCB982716B17775003EDE86 /* ViewController.m */,
 				2BCB980F16B17775003EDE86 /* Supporting Files */,
+				2BCB982E16B177D2003EDE86 /* RouteUIView.h */,
+				2BCB982F16B177D2003EDE86 /* RouteUIView.m */,
 			);
 			path = DrawRoute;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				2BCB981516B17775003EDE86 /* main.m in Sources */,
 				2BCB981916B17775003EDE86 /* AppDelegate.m in Sources */,
 				2BCB982816B17775003EDE86 /* ViewController.m in Sources */,
+				2BCB983016B177D2003EDE86 /* RouteUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
